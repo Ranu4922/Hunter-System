@@ -1,0 +1,17 @@
+HUNTER SYSTEM – ERSTE VERSION
+=============================
+
+1. ZIP entpacken.
+2. Die Dateien dieses Ordners (OHNE die separate private JSON-Datei) in ein
+   eigenes GitHub-Repository hochladen.
+3. GitHub Pages für Branch "main", Verzeichnis "/ (root)" einschalten.
+4. Öffentliche HTTPS-Adresse mit Safari auf dem iPhone öffnen.
+5. Über "Teilen -> Zum Home-Bildschirm" als PWA installieren.
+6. In der PWA auf "Einstellungen -> Backup importieren" gehen und die
+   separat gelieferte Datei "Hunter_Startdaten_PRIVAT.json" importieren.
+7. Training starten, Werte ändern, Sätze abhaken – Pausentimer läuft!
+
+Optional: Für ChatGPT-Auswertungen Google Sheets verbinden.
+Dazu steht eine genaue Anleitung in README.md.
+
+WICHTIG: Die private JSON-Startdatei NIEMALS ins öffentliche Repository laden.
