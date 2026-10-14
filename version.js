@@ -2,9 +2,10 @@
 (() => {
   'use strict';
   const release = {
-    version: '1.2.0',
-    date: '13.10.2026',
+    version: '1.3.0',
+    date: '14.10.2026',
     changelog: [
+      ['1.3.0', 'Satztypen Warm-up, Einstieg und Arbeitssatz; Tagesplan direkt starten; Wochentage nur einmal vergeben.'],
       ['1.2.0', 'Versionsanzeige im Kopfbereich und Änderungsverlauf in Einstellungen.'],
       ['1.1.0', 'Google-Anmeldung: Cloud-Daten können auf neuen, unveränderten Geräten übernommen werden.'],
       ['1.0.0', 'Trainingstagebuch, freie Trainingspläne, Pausentimer, Fortschritt und Daily Quests.']

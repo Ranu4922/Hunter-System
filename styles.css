@@ -2,3 +2,17 @@
 @media(max-width:1050px){.main{padding:30px 25px 90px}.grid-2{grid-template-columns:1fr}.grid-3{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){:root{--sidebar:0px}.sidebar{display:none}.shell{display:block}.mobile-head{display:flex;justify-content:space-between;align-items:center;height:60px;padding:0 17px;border-bottom:1px solid #303d54;background:#101728df;position:sticky;top:0;z-index:15;backdrop-filter:blur(14px)}.mobile-head .brand{padding:0;gap:9px}.mobile-head .brand-badge{height:34px;width:34px}.mobile-head .brand-title{font-size:13px}.main{padding:23px 15px calc(105px + env(safe-area-inset-bottom));max-width:100%}.page-header{margin-bottom:19px;align-items:flex-start}.page-title{font-size:28px}.header-actions{gap:6px}.header-actions .button{padding:9px;font-size:11px;min-height:36px}.grid-3{grid-template-columns:1fr 1fr;gap:10px}.stat-grid{gap:8px}.stat-card{padding:13px}.stat-number{font-size:21px}.panel{padding:16px;border-radius:16px}.grid-2{gap:13px}.bottom-nav{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;bottom:0;left:0;right:0;padding:9px 5px calc(9px + env(safe-area-inset-bottom));background:#121a2af3;border-top:1px solid #303e58;z-index:19;backdrop-filter:blur(18px)}.mobile-navbtn{padding:7px 0;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;font-size:9px;border-radius:11px;line-height:1.1}.mobile-navbtn.active{color:#d9cbff;background:#40386c9c}.mobile-navbtn svg{width:19px;height:19px}.mobile-only{display:block}.timer{gap:8px;padding:12px}.timer-time{font-size:25px}.timer .inline-actions .button{padding:6px 8px;min-height:30px;font-size:10px}.form-row{gap:9px}.sets-head,.set-row{grid-template-columns:25px minmax(0,1fr) minmax(0,1fr) 42px 34px;gap:5px}.set-check{width:34px;height:34px}.set-row .input{font-size:13px;padding:8px 4px}.workout-exercise{padding:12px}.modal-backdrop{place-items:end center;padding:0}.modal{max-height:91dvh;border-radius:22px 22px 0 0;padding:20px 16px calc(26px + env(safe-area-inset-bottom))}.editor-fields{grid-template-columns:1fr 1fr 1fr}#toast{right:12px;left:12px;bottom:calc(86px + env(safe-area-inset-bottom));max-width:none}.active-banner{align-items:flex-start}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+
+/* v1.3: Satztypen W / E / A, kompakt auch auf kleinen Telefonen. */
+.sets-head,.set-row{grid-template-columns:29px 56px minmax(0,1fr) minmax(0,1fr) 54px 38px;}
+.set-row .set-type,.set-row .select{min-width:0;padding:9px 2px;font-size:12px;text-align:center;text-align-last:center;}
+.set-row .set-type{font-weight:850;color:#e7d4ff;border-color:#6b5ca4;}
+.history-type-select{width:65px;padding:6px 4px;font-size:12px;font-weight:700;text-align:center;text-align-last:center;}
+@media(max-width:700px){
+  .sets-head,.set-row{grid-template-columns:20px 39px minmax(0,1fr) minmax(0,1fr) 37px 32px;gap:4px;}
+  .sets-head{font-size:9px;letter-spacing:0;}
+  .set-row .input{padding:8px 2px;font-size:12px;}
+  .set-row .select{padding:8px 0;font-size:11px;}
+  .set-row .set-type{font-size:12px;}
+  .set-check{width:32px;height:34px;}
+}
